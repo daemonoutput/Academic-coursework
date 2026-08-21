@@ -3,16 +3,12 @@ Eis tudo o que aprendi em minha formação Técnica e Universitária na área da
 
 
 ## Matérias
-Para poupar os recrutadores, listarei apenas os saberes que aprendi de útil para a área profissional a qual eu desejo fazer parte, irei fazer aqui uma exposição lógica eu digo.
+Para poupar os recrutadores, listarei apenas os saberes úteis para a área profissional a qual eu desejo ingressar, irei fazer aqui uma exposição lógica breve eu digo.
 
 ### 1. ANÁLISE DE FENÔMENOS FÍSICOS DA NATUREZA
 A. Noções Intuitivas de Limites:
-É a análise do comportamento que uma função irá ter próxima às vinzinhanças de um ponto em um plano cartesiano, servem para o computador definir o comportamento de processos que se aproximam de um valor final como um fluxo de dados provindo de um download por exemplo. Permitindo a máquina compreender a precisão numérica e o desempenho infinito de loops.
+É a análise do comportamento que uma função irá ter próxima às vinzinhanças de um ponto em um plano cartesiano, servem para o computador definir o comportamento de processos que se aproximam de um valor final como um fluxo de dados provindo de um download por exemplo. Permitindo a máquina compreender a precisão numérica e o desempenho infinito de loops. O que nos interessa é o fundamento teórico.
 
-Quadrantes: o primeiro quadrante fica no canto superior direito e o segundo quadrante no canto superior esquerdo, o terceiro quadrante fica no canto inferior esquerdo e o quarto quadrante no canto inferior direito.
-Eixo Y (Vertical): Ordenadas, indo de -y até y.
-Eixo X (Horizontal): Abscissas, indo de -x até x.
-Origem (0,0): +
 ● = função contínua, com limite real. 
 ○ = função descontínua, mas com limite.
 
@@ -21,9 +17,6 @@ LIM f(x) = X: O limite é aquilo que se aproxima constantemente de uma coordenad
 Limite indefinido: É quando os limites laterais não coincidem (→≠←).
 
 Limite não existente: É quando a assíntona tende ±∞ 
- 
-Reta (—): perpendicular (1°grau) ou côncava (2°grau +), onde o que define o grau de uma função é o seu expoente.
-
 
 ### 2. FENÔMENOS ELÉTRICOS MAGNÉTICOS E OSCILATÓRIOS
 A. Álgebra Linear:
@@ -37,6 +30,13 @@ Em uma operação básica de matrizes seja adição, subtração, multiplicaçã
 
 ### 3. MODELAGEM DE SISTEMAS ELÉTRICOS, MAGNÉTICOS E OSCILATÓRIOS
 A. Circuitos Elétricos
+Um circuito elétrico é uma interconexão de elementos ativos que podem gerar energia sendo eles geradores, baterias e amplificadores e elementos passivos que não podem sendo eles resistores, capacitores e indutores do qual se passa uma propriedade elétrica da matéria atômica em forma de fluxo líquido positivo chamado carga, medida em coulomb (C) que juntas formam uma corrente elétrica medida em ampére (A) que pode ser contínua (CC) se não muda ao longo do tempo permanecendo constante ou alternada (CA) se houver variação segundo uma forma senoidal. 
+
+A capacidade de realizar trabalho, medida em joules (J) ou seja, a energia necessária para deslocar uma carga unitária através de um elemento chamado tensão, medida em volts (V) do qual a potência é a velocidade com que se consome ou se absorve energia medida em watts (W) irá trabalhar em um circuito seguindo três leis naturais;
+
+- A Lei de Ohm que afirma que a tensão v em um resistor é diretamente proporcional à corrente i através dele.
+
+- E às leis de Kirchhoff (LKC/LKT) que afirmam que a soma algébrica das correntes que entram em um nó ou um limite fechado e de todas às tensões em torno de um caminho fechado ou laço é igual a zero.
 
 B. Álgebra Booleana:
 Mais importante ainda é entender ou saber definir a lógica em que os bits 0 ou 1 operam a partir das sete portas lógicas necessárias.
