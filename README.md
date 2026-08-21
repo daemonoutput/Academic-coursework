@@ -3,7 +3,69 @@ Eis tudo o que aprendi em minha formação Técnica e Universitária na área da
 
 
 ## Matérias
-### 1. ORGANIZAÇÃO DE COMPUTADORES E SISTEMAS OPERACIONAIS
+Para poupar os recrutadores, listarei apenas os saberes que aprendi de útil para a área profissional a qual eu desejo fazer parte, irei fazer aqui uma exposição lógica eu digo.
+
+### 1. FENÔMENOS ELÉTRICOS MAGNÉTICOS E OSCILATÓRIOS
+A. Álgebra Linear:
+Tudo em um computador é uma "infinitude" de combinações lineares de números organizados, mais especificamente por eliminação galciana, também chamada de escalonamento. Uma matriz só pode ser somada ou multiplicada com outra se ambas possuirem a mesma dimensão explicitada pela fórmula RxN (ex.: 4x3 + 3x5 = 4x5), onde "r" se refere ao número de linhas e "n" ao número de colunas.
+[1, 2, 3, 4            [5, 6, 7, 8, 6
+ 4, 3, 2, 1     +       9, 0, 5, 4, 2    
+ 5, 6, 7, 8             8, 2, 1, 7, 4]
+ 9, 7, 8, 5]
+
+Em uma operação básica de matrizes seja adição, subtração, multiplicação ou divisão começamos multiplicando linha por coluna
+
+### 2. MODELAGEM DE SISTEMAS ELÉTRICOS, MAGNÉTICOS E OSCILATÓRIOS
+A. Circuitos Elétricos
+
+B. Álgebra Booleana:
+Mais importante ainda é entender ou saber definir a lógica em que os bits 0 ou 1 operam a partir das sete portas lógicas necessárias.
+
+NOT (A̅):
+0 = 1
+1 = 0
+
+AND (A ⋅ B):
+0 e 0 = 0
+0 e 1 = 0
+1 e 0 = 0
+1 e 1 = 1
+
+OR (A + B):
+0 ou 0 = 0
+0 ou 1 = 1
+1 ou 0 = 1
+1 ou 1 = 1
+
+NAND (A̅ ⋅ B̅):
+0 e 0 = 1
+0 e 1 = 1
+1 e 0 = 1
+1 e 1 = 0
+Obs.: Aplica-se o 1° teorema de Morgan
+
+NOR (A̅ + B̅):
+0 ou 0 = 1
+0 ou 1 = 0
+1 ou 0 = 0
+1 ou 0 = 0
+Obs.: Aplica-se o 2° teorema de Morgan
+
+XOR (A ⊕ B):
+0 ou 0 = 0
+0 ou 1 = 1
+1 ou 0 = 1
+1 ou 1 = 0
+
+XNOR (A̅ ⊙ B̅):
+0 ou 0 = 1
+0 ou 1 = 0
+1 ou 0 = 0
+1 ou 1 = 1
+
+Obs.: para saber o número de combinações a se colocar em uma tabela verdade, basta usar a fórmula: 2^x onde x é o número de entradas. Somente os membros que forem iguais a 1 nos interessam.
+
+### 3. ORGANIZAÇÃO DE COMPUTADORES E SISTEMAS OPERACIONAIS
 A. Arquitetura de Computadores:
 |—————————|               |---------|
 | CPU     |______BUS______| Memória |
@@ -63,7 +125,7 @@ Tenha em mente que:
 1 nibble = 4 bits = 4 dígitos binários.
 1 byte(B) = 8 bits = 8 dígitos binários.
 1 KeraByte(KB) = 1024¹ B = 8192 dígitos binários.
-1 MegaByte(MB) = 1024² B = 1.048.576 KB = 8388.608 dígitos binários.
+1 MegaByte(MB) = 1024² B = 1048.576 KB = 8388.608 dígitos binários.
 1 GigaByte(GB) = 1024³ B = 1073.741.824 MB = 8589.934.592 dígitos binários.
 1 TeraByte(TB) = 1024⁴ B = 1099.511.627.776 GB = 8796.093.022.208 dígitos binários.
 1 PetaByte(PB) = 1024⁵ B = 1125.899.906.842.624 TB = 9007.199.254.740.992 dígitos binários.
