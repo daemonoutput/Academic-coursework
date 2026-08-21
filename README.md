@@ -5,7 +5,27 @@ Eis tudo o que aprendi em minha formação Técnica e Universitária na área da
 ## Matérias
 Para poupar os recrutadores, listarei apenas os saberes que aprendi de útil para a área profissional a qual eu desejo fazer parte, irei fazer aqui uma exposição lógica eu digo.
 
-### 1. FENÔMENOS ELÉTRICOS MAGNÉTICOS E OSCILATÓRIOS
+### 1. ANÁLISE DE FENÔMENOS FÍSICOS DA NATUREZA
+A. Noções Intuitivas de Limites:
+É a análise do comportamento que uma função irá ter próxima às vinzinhanças de um ponto em um plano cartesiano, servem para o computador definir o comportamento de processos que se aproximam de um valor final como um fluxo de dados provindo de um download por exemplo. Permitindo a máquina compreender a precisão numérica e o desempenho infinito de loops.
+
+Quadrantes: o primeiro quadrante fica no canto superior direito e o segundo quadrante no canto superior esquerdo, o terceiro quadrante fica no canto inferior esquerdo e o quarto quadrante no canto inferior direito.
+Eixo Y (Vertical): Ordenadas, indo de -y até y.
+Eixo X (Horizontal): Abscissas, indo de -x até x.
+Origem (0,0): +
+● = função contínua, com limite real. 
+○ = função descontínua, mas com limite.
+
+LIM f(x) = X: O limite é aquilo que se aproxima constantemente de uma coordenada [Y, X] onde X tende a A. Nunca chegando no número fixo, mas sim em infinitas frações decimais do mesmo. Ele pode vir tanto da esquerda (-) quanto da direita (+).
+
+Limite indefinido: É quando os limites laterais não coincidem (→≠←).
+
+Limite não existente: É quando a assíntona tende ±∞ 
+ 
+Reta (—): perpendicular (1°grau) ou côncava (2°grau +), onde o que define o grau de uma função é o seu expoente.
+
+
+### 2. FENÔMENOS ELÉTRICOS MAGNÉTICOS E OSCILATÓRIOS
 A. Álgebra Linear:
 Tudo em um computador é uma "infinitude" de combinações lineares de números organizados, mais especificamente por eliminação galciana, também chamada de escalonamento. Uma matriz só pode ser somada ou multiplicada com outra se ambas possuirem a mesma dimensão explicitada pela fórmula RxN (ex.: 4x3 + 3x5 = 4x5), onde "r" se refere ao número de linhas e "n" ao número de colunas.
 [1, 2, 3, 4            [5, 6, 7, 8, 6
@@ -15,7 +35,7 @@ Tudo em um computador é uma "infinitude" de combinações lineares de números 
 
 Em uma operação básica de matrizes seja adição, subtração, multiplicação ou divisão começamos multiplicando linha por coluna
 
-### 2. MODELAGEM DE SISTEMAS ELÉTRICOS, MAGNÉTICOS E OSCILATÓRIOS
+### 3. MODELAGEM DE SISTEMAS ELÉTRICOS, MAGNÉTICOS E OSCILATÓRIOS
 A. Circuitos Elétricos
 
 B. Álgebra Booleana:
@@ -65,7 +85,7 @@ XNOR (A̅ ⊙ B̅):
 
 Obs.: para saber o número de combinações a se colocar em uma tabela verdade, basta usar a fórmula: 2^x onde x é o número de entradas. Somente os membros que forem iguais a 1 nos interessam.
 
-### 3. ORGANIZAÇÃO DE COMPUTADORES E SISTEMAS OPERACIONAIS
+### 4. ORGANIZAÇÃO DE COMPUTADORES E SISTEMAS OPERACIONAIS
 A. Arquitetura de Computadores:
 |—————————|               |---------|
 | CPU     |______BUS______| Memória |
