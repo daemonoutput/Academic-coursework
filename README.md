@@ -46,8 +46,8 @@ MEMÓRIA RAM
 - Principal (DRAM)
 - Cache (SRAM)
 -- L1 (
--- L2
--- L3
+-- L2 (
+-- L3 (
 
 BUS = BARRAMENTOS
 - Endereços
@@ -62,19 +62,20 @@ Tenha em mente que:
 1 bit = 0 ou 1.
 1 nibble = 4 bits = 4 dígitos binários.
 1 byte(B) = 8 bits = 8 dígitos binários.
-1 KeraByte(KB) = 1024 B = 
-1 MegaByte(MB) = 2x1024 = 1048.576 KB =
-1 GigaByte(GB) = 3x1024 = 1073.741.824 MB = 
-1 TeraByte(TB) = 4x1024 = 1099.511.627.776 GB =
-1 PetaByte(PB) = 5x1024 = 1125.899.906.842.624 TB = 
-1 EB = 
-1 ZB = 
-1 YB = 
+1 KeraByte(KB) = 1024¹ B = 8192 dígitos binários.
+1 MegaByte(MB) = 1024² B = 1.048.576 KB = 8388.608 dígitos binários.
+1 GigaByte(GB) = 1024³ B = 1073.741.824 MB = 8589.934.592 dígitos binários.
+1 TeraByte(TB) = 1024⁴ B = 1099.511.627.776 GB = 8796.093.022.208 dígitos binários.
+1 PetaByte(PB) = 1024⁵ B = 1125.899.906.842.624 TB = 9007.199.254.740.992 dígitos binários.
+1 ExaByte(EB) = 1024⁶ B = 1152.921.504.606.846 e 976 EB = 9223.372.036.854.775.808 dígitos binários.
+1 ZettaByte(ZB) = 1024⁷ B = 1180.591.620.717.411.303.424 ZB = 
+1 YottaByte(YB) = 1024⁸ B = 1208.925.819.614.629.174.706.176 YB =
 
 Além disso pode ser composto de diversos parâmetros tais como: tamanho da palavra, compatibilidade binária, capacidade de endereçamento e clock.
 **Tamanho da Palavra:** É a quantidade mínima de bits para representar a instrução mais simples do processador. O tamanho da palavra também determina quantos bits a unidade decodificadora de instruções utiliza a cada ciclo de decodificação.
 **Compatibilidade Binária:** 
 **Capacidade de Endereço:** É a quantidade máxima de endereços diferentes que um processador pode gerar. Endereços estes que na sua maioria são para acessar a memória. Devemos observar que a capacidade de endereçamento não possuí nenhuma relação com o tamanho da palavra e na maioria das arquiteturas cada endereço de memória armazena 1 byte de informação.
+**Clock:**
 
 Um processador pode de:
 2x4 = 8 bits (2³) = 2⁸ = 256 combinações de bytes de endereços.
