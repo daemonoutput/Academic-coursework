@@ -62,14 +62,14 @@ NAND (A̅ ⋅ B̅):
 0 e 1 = 1
 1 e 0 = 1
 1 e 1 = 0
-Obs.: Aplica-se o 1° teorema de Morgan
+Obs.: Aplica-se o 1° teorema De Morgan que afirma que o complemento de um produto lógico (AND) é igual à soma lógica (OR) dos complementos de cada termo ou seja: A̅ •̅ B̅ = A̅ + B̅
 
 NOR (A̅ + B̅):
 0 ou 0 = 1
 0 ou 1 = 0
 1 ou 0 = 0
 1 ou 0 = 0
-Obs.: Aplica-se o 2° teorema de Morgan
+Obs.: Aplica-se o 2° teorema De Morgan que afirma que o complemento de uma soma lógica (OR) é igual ao produto lógico (AND) dos complementos de cada termo ou seja: A̅ +̅ B̅ = A̅ ⋅ B̅
 
 XOR (A ⊕ B):
 0 ou 0 = 0
